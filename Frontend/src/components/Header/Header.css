@@ -20,7 +20,7 @@
 
 .header-contents h2{
     font-weight: 500;
-    color: orangered;
+    color: green;
     font-size: max(4.5vw,22px);
 }
 
@@ -31,12 +31,11 @@
 
 .header-contents button{
     border: none;
-    color: orangered;
+    color: white;
     font-weight: 500;
     padding: 1vw 2.3vw;
-    background-color: #fbd3d3;
+    background-color:orange;
     font-size: max(1vw,13px);
     border-radius: 50px;
-    border: 1px solid black;
     cursor: pointer;
 }
