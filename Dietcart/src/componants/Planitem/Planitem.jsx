@@ -9,10 +9,11 @@ function Planitem({subplan_name,subplan_img,subplan_desc,Price}) {
       </div>
       <div className="plan-item-info">
         <div className="plan-item-name">
-            <p>{subplan_name}</p>
+            <h3>{subplan_name}</h3>
         </div>
         <p className="plan-item-desc">{subplan_desc}</p>
-        <p className="plan-item-prise">Rs.{Price}</p>
+        <p className="plan-item-prise">{Price}</p>
+        <a href="#" className="plan-item-buy">BUY IT NOW</a>
       </div>
     </div>
   )

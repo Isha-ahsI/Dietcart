@@ -7,7 +7,7 @@ import image2 from './image2.jpg'
 import image5 from './image5.jpg'
 import image3 from './image3.jpg'
 import img1 from './img1.jpg'
-import img2 from './img2.jpeg'
+import img2 from './img2.jpg'
 import img3 from './img3.jpg'
 
 export const assets={
