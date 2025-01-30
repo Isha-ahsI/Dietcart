@@ -5,7 +5,7 @@
     box-shadow: 0px 0px 10px #0a090915;
     transition: 0.3s;
     animation: fadeIn 1s;
-    max-width: 1200px
+    max-width: 1200px;
 }
 
 .plan-item-img{
