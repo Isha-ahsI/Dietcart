@@ -4,6 +4,7 @@ const mongoURL = "mongodb+srv://root:root@cluster.sc6tn.mongodb.net/?retryWrites
 import { User } from "./models/user.js";
 import {Dietfood} from "./models/dietfood.js";
 import dietfoodRouter from './routs/dietfoodRouter.js'
+import AdminRouter from './routs/AdminRouter.js'
 const app = express();
 
 
@@ -119,6 +120,7 @@ app.put('/user/:id',async(req,res)=>{
 // // });
 
 app.use('/dietfood',dietfoodRouter);
+app.use('/Admin',AdminRouter);
 
 
 const port=3001;
