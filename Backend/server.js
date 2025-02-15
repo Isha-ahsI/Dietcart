@@ -1,25 +1,26 @@
+
 import express, { response } from "express"
 import mongoose from "mongoose";
-const mongoURL = "mongodb+srv://root:root@cluster.sc6tn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster"
+// const mongoURL = "mongodb+srv://root:root@cluster.sc6tn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster"
 import { User } from "./models/user.js";
-import {Dietfood} from "./models/dietfood.js";
 import dietfoodRouter from './routs/dietfoodRouter.js'
 import AdminRouter from './routs/AdminRouter.js'
+import cors from 'cors'
 const app = express();
 
 
 app.use(express.json());
 
 
-// app.use(cors());
+app.use(cors());
 
 // app.use("/",(req,res)=>{
 //     console.log("API working");
 // });
 
-//app.use(cors());
 
-//Route for insert a new record
+
+// Route for insert a new record
 app.post("/user", async (req,res)=>{
     try {
 
@@ -101,29 +102,29 @@ app.put('/user/:id',async(req,res)=>{
 });
 
 
-// //Router for delete record
+//Router for delete record
 
-// // app.delete('/user/:id',async(req,res)=>{
-// //     try {
-// //         const{ id } = req.params;
-// //         const result=await User.findByIdAndDelete(id);
+// app.delete('/user/:id',async(req,res)=>{
+//     try {
+//         const{ id } = req.params;
+//         const result=await User.findByIdAndDelete(id);
 
-// //         if (!result){
-// //             return res.status(404).json({message:'User Not Found'})
-// //           }
-// //           return res.status(200).send({message:"User Detail Delete Successfully"})
+//         if (!result){
+//             return res.status(404).json({message:'User Not Found'})
+//           }
+//           return res.status(200).send({message:"User Detail Delete Successfully"})
     
-// //     } catch (error) {
-// //         console.log(error.message);
-// //         res.status(500).send({message: error.message})
-// //     }
-// // });
+//     } catch (error) {
+//         console.log(error.message);
+//         res.status(500).send({message: error.message})
+//     }
+// });
 
 app.use('/dietfood',dietfoodRouter);
-app.use('/Admin',AdminRouter);
+app.use('/Add',AdminRouter);
 
 
-const port=3001;
+const port=3002;
 mongoose.connect(mongoURL).then(()=>{
     console.log("mongodb connect");
     app.listen(port,()=>{
