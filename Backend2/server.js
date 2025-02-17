@@ -4,6 +4,11 @@ const mongoURL = "mongodb+srv://root:root@cluster.sc6tn.mongodb.net/diet_cart"
 // mongodb+srv://root:root@cluster.sc6tn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster
 import cors from "cors"
 import adminRouter from "./routes/adminRoute.js";
+import userRouter from "./routes/userRoute.js";
+// import 'dotenv,config';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 const app=express()
 const port=4000
@@ -13,6 +18,7 @@ app.use(cors())
 
 app.use("/api/food",adminRouter)
 app.use("/image",express.static('uploads'))
+app.use("/api/user",userRouter)
 
 app.get("/",(req,res)=>{
     res.send("API Working")
