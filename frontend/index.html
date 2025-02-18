@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="text/javascript" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dietcart</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <div id="smoke"></div>
+    <script type="module" src="/src/main.jsx">
+      let smoke = document.getElementById('smoke');
+
+      function createSmoke(e){
+        let elem = document.createElement('div');
+        elem.classList.add(elem);
+
+        elem.style.left = `${e.clientX}px`;
+        elem.style.top = `${e.clientY}px`;
+        smoke.appendChild(elem);
+
+        elem.addEventListener('animationed',()=>{
+          elem.remove();
+        })
+
+      }
+
+      document.addEventListener('mousemove', createSmoke);
+    </script>
+  </body>
+</html>
