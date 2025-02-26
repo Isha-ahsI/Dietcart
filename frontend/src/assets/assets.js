@@ -243,10 +243,10 @@ export const menu_list = [
         menu_name: "Brown Rice Special",
         menu_image: menu_4
     },
-    {
-        menu_name: "Main Course",
-        menu_image: menu_5
-    },
+    // {
+    //     menu_name: "Main Course",
+    //     menu_image: menu_5
+    // },
     {
         menu_name: "Pre & Post Workout Special",
         menu_image: menu_6
@@ -287,87 +287,6 @@ export const food_list= [
 
     {
         _id: "4",
-        name: "Half Fry",
-        image: food_4,
-        price: 80,
-        description: " Egg dishes offer a versatile blend of textures and flavors, from crispy fries to fluffy omelets, making them a staple in global cuisine.",
-        category: "Egg plate"
-    },
-
-    {
-        _id: "5",
-        name: "Omlette",
-        image: food_5,
-        price: 90,
-        description: " Egg dishes offer a versatile blend of textures and flavors, from crispy fries to fluffy omelets, making them a staple in global cuisine.",
-        category: "Egg plate"
-    },
-
-    {
-        _id: "6",
-        name: "Garlic Omlette",
-        image: food_6,
-        price:100,
-        description: " Egg dishes offer a versatile blend of textures and flavors, from crispy fries to fluffy omelets, making them a staple in global cuisine.",
-        category: "Egg plate"
-    },
-
-    {
-        _id: "7",
-        name: "Spinach Omlette",
-        image: food_7,
-        price: 60,
-        description: " Egg dishes offer a versatile blend of textures and flavors, from crispy fries to fluffy omelets, making them a staple in global cuisine.",
-        category: "Egg plate"
-    },
-
-    {
-        _id: "8",
-        name: "Garlic Fry",
-        image: food_8,
-        price: 110,
-        description: " Egg dishes offer a versatile blend of textures and flavors, from crispy fries to fluffy omelets, making them a staple in global cuisine.",
-        category: "Egg plate"
-    },
-
-    {
-        _id: "9",
-        name: "Egg Vegetable Omlette",
-        image: food_9,
-        price: 110,
-        description: " Egg dishes offer a versatile blend of textures and flavors, from crispy fries to fluffy omelets, making them a staple in global cuisine.",
-        category: "Egg plate"
-    },
-
-    {
-        _id: "10",
-        name: "Egg Bhurji",
-        image: food_10,
-        price: 110,
-        description: " Egg dishes offer a versatile blend of textures and flavors, from crispy fries to fluffy omelets, making them a staple in global cuisine.",
-        category: "Egg plate"
-    },
-
-    {
-        _id: "11",
-        name: "Egg Khimo",
-        image: food_11,
-        price: 110,
-        description: " Egg dishes offer a versatile blend of textures and flavors, from crispy fries to fluffy omelets, making them a staple in global cuisine.",
-        category: "Egg plate"
-    },
-
-    {
-        _id: "12",
-        name: "Egg Tomato Fry",
-        image: food_12,
-        price: 120,
-        description: " Egg dishes offer a versatile blend of textures and flavors, from crispy fries to fluffy omelets, making them a staple in global cuisine.",
-        category: "Egg plate"
-    },
-
-    {
-        _id: "13",
         name: "Roasted Egg Tikka",
         image: food_13,
         price: 130,
@@ -375,59 +294,142 @@ export const food_list= [
         category: "Egg plate"
     },
 
-    {
-        _id: "14",
-        name: "Egg Gotalo",
-        image: food_14,
-        price: 150,
-        description: " Egg dishes offer a versatile blend of textures and flavors, from crispy fries to fluffy omelets, making them a staple in global cuisine.",
-        category: "Egg plate"
-    },
 
-    {
-        _id: "15",
-        name: "Egg Lahori",
-        image: food_15,
-        price: 150,
-        description: " Egg dishes offer a versatile blend of textures and flavors, from crispy fries to fluffy omelets, making them a staple in global cuisine.",
-        category: "Egg plate"
-    },
+    // {
+    //     _id: "5",
+    //     name: "Omlette",
+    //     image: food_5,
+    //     price: 90,
+    //     description: " Egg dishes offer a versatile blend of textures and flavors, from crispy fries to fluffy omelets, making them a staple in global cuisine.",
+    //     category: "Egg plate"
+    // },
 
-    {
-        _id: "16",
-        name: "Egg Kachu",
-        image: food_16,
-        price: 150,
-        description: " Egg dishes offer a versatile blend of textures and flavors, from crispy fries to fluffy omelets, making them a staple in global cuisine.",
-        category: "Egg plate"
-    },
+    // {
+    //     _id: "6",
+    //     name: "Garlic Omlette",
+    //     image: food_6,
+    //     price:100,
+    //     description: " Egg dishes offer a versatile blend of textures and flavors, from crispy fries to fluffy omelets, making them a staple in global cuisine.",
+    //     category: "Egg plate"
+    // },
 
-    {
-        _id: "17",
-        name: "Green Fry",
-        image: food_17,
-        price: 160,
-        description: " Egg dishes offer a versatile blend of textures and flavors, from crispy fries to fluffy omelets, making them a staple in global cuisine.",
-        category: "Egg plate"
-    },
+    // {
+    //     _id: "7",
+    //     name: "Spinach Omlette",
+    //     image: food_7,
+    //     price: 60,
+    //     description: " Egg dishes offer a versatile blend of textures and flavors, from crispy fries to fluffy omelets, making them a staple in global cuisine.",
+    //     category: "Egg plate"
+    // },
 
-    {
-        _id: "18",
-        name: "Green Gravy Egg Khimo",
-        image: food_18,
-        price: 160,
-        description: " Egg dishes offer a versatile blend of textures and flavors, from crispy fries to fluffy omelets, making them a staple in global cuisine.",
-        category: "Egg plate"
-    },
+    // {
+    //     _id: "8",
+    //     name: "Garlic Fry",
+    //     image: food_8,
+    //     price: 110,
+    //     description: " Egg dishes offer a versatile blend of textures and flavors, from crispy fries to fluffy omelets, making them a staple in global cuisine.",
+    //     category: "Egg plate"
+    // },
 
-    {
-        _id: "19",
-        name: "Astralian Fry",
-        image: food_19,
-        price: 170,
-        description: " Egg dishes offer a versatile blend of textures and flavors, from crispy fries to fluffy omelets, making them a staple in global cuisine.",
-        category: "Egg plate"
-    },
+    // {
+    //     _id: "9",
+    //     name: "Egg Vegetable Omlette",
+    //     image: food_9,
+    //     price: 110,
+    //     description: " Egg dishes offer a versatile blend of textures and flavors, from crispy fries to fluffy omelets, making them a staple in global cuisine.",
+    //     category: "Egg plate"
+    // },
+
+    // {
+    //     _id: "10",
+    //     name: "Egg Bhurji",
+    //     image: food_10,
+    //     price: 110,
+    //     description: " Egg dishes offer a versatile blend of textures and flavors, from crispy fries to fluffy omelets, making them a staple in global cuisine.",
+    //     category: "Egg plate"
+    // },
+
+    // {
+    //     _id: "11",
+    //     name: "Egg Khimo",
+    //     image: food_11,
+    //     price: 110,
+    //     description: " Egg dishes offer a versatile blend of textures and flavors, from crispy fries to fluffy omelets, making them a staple in global cuisine.",
+    //     category: "Egg plate"
+    // },
+
+    // {
+    //     _id: "12",
+    //     name: "Egg Tomato Fry",
+    //     image: food_12,
+    //     price: 120,
+    //     description: " Egg dishes offer a versatile blend of textures and flavors, from crispy fries to fluffy omelets, making them a staple in global cuisine.",
+    //     category: "Egg plate"
+    // },
+
+    // {
+    //     _id: "13",
+    //     name: "Half Fry",
+    //     image: food_4,
+    //     price: 80,
+    //     description: " Egg dishes offer a versatile blend of textures and flavors, from crispy fries to fluffy omelets, making them a staple in global cuisine.",
+    //     category: "Egg plate"
+    // },
+    
+
+    // {
+    //     _id: "14",
+    //     name: "Egg Gotalo",
+    //     image: food_14,
+    //     price: 150,
+    //     description: " Egg dishes offer a versatile blend of textures and flavors, from crispy fries to fluffy omelets, making them a staple in global cuisine.",
+    //     category: "Egg plate"
+    // },
+
+    // {
+    //     _id: "15",
+    //     name: "Egg Lahori",
+    //     image: food_15,
+    //     price: 150,
+    //     description: " Egg dishes offer a versatile blend of textures and flavors, from crispy fries to fluffy omelets, making them a staple in global cuisine.",
+    //     category: "Egg plate"
+    // },
+
+    // {
+    //     _id: "16",
+    //     name: "Egg Kachu",
+    //     image: food_16,
+    //     price: 150,
+    //     description: " Egg dishes offer a versatile blend of textures and flavors, from crispy fries to fluffy omelets, making them a staple in global cuisine.",
+    //     category: "Egg plate"
+    // },
+
+    // {
+    //     _id: "17",
+    //     name: "Green Fry",
+    //     image: food_17,
+    //     price: 160,
+    //     description: " Egg dishes offer a versatile blend of textures and flavors, from crispy fries to fluffy omelets, making them a staple in global cuisine.",
+    //     category: "Egg plate"
+    // },
+
+    // {
+    //     _id: "18",
+    //     name: "Green Gravy Egg Khimo",
+    //     image: food_18,
+    //     price: 160,
+    //     description: " Egg dishes offer a versatile blend of textures and flavors, from crispy fries to fluffy omelets, making them a staple in global cuisine.",
+    //     category: "Egg plate"
+    // },
+
+    // {
+    //     _id: "19",
+    //     name: "Astralian Fry",
+    //     image: food_19,
+    //     price: 170,
+    //     description: " Egg dishes offer a versatile blend of textures and flavors, from crispy fries to fluffy omelets, making them a staple in global cuisine.",
+    //     category: "Egg plate"
+    // },
 
     {
         _id: "20",
@@ -465,140 +467,140 @@ export const food_list= [
         category: "Smoothies"
     },
 
-    {
-        _id: "24",
-        name: "Apple Banana Smoothie",
-        image: food_24,
-        price: 139,
-        description: " A smoothie is a creamy, blended drink packed with fruits, dairy, or proteins, offering a refreshing and nutritious boost in every sip.",
-        category: "Smoothies"
-    },
+    // {
+    //     _id: "24",
+    //     name: "Apple Banana Smoothie",
+    //     image: food_24,
+    //     price: 139,
+    //     description: " A smoothie is a creamy, blended drink packed with fruits, dairy, or proteins, offering a refreshing and nutritious boost in every sip.",
+    //     category: "Smoothies"
+    // },
 
-    {
-        _id: "25",
-        name: "Peanut Butter Banana Smoothie",
-        image: food_25,
-        price: 139,
-        description: " A smoothie is a creamy, blended drink packed with fruits, dairy, or proteins, offering a refreshing and nutritious boost in every sip.",
-        category: "Smoothies"
-    },
+    // {
+    //     _id: "25",
+    //     name: "Peanut Butter Banana Smoothie",
+    //     image: food_25,
+    //     price: 139,
+    //     description: " A smoothie is a creamy, blended drink packed with fruits, dairy, or proteins, offering a refreshing and nutritious boost in every sip.",
+    //     category: "Smoothies"
+    // },
 
-    {
-        _id: "26",
-        name: "Green Republic Smoothie",
-        image: food_26,
-        price: 149,
-        description: " A smoothie is a creamy, blended drink packed with fruits, dairy, or proteins, offering a refreshing and nutritious boost in every sip.",
-        category: "Smoothies"
-    },
+    // {
+    //     _id: "26",
+    //     name: "Green Republic Smoothie",
+    //     image: food_26,
+    //     price: 149,
+    //     description: " A smoothie is a creamy, blended drink packed with fruits, dairy, or proteins, offering a refreshing and nutritious boost in every sip.",
+    //     category: "Smoothies"
+    // },
 
-    {
-        _id: "27",
-        name: "Mango Banana Smoothie",
-        image: food_27,
-        price: 159,
-        description: " A smoothie is a creamy, blended drink packed with fruits, dairy, or proteins, offering a refreshing and nutritious boost in every sip.",
-        category: "Smoothies"
-    },
+    // {
+    //     _id: "27",
+    //     name: "Mango Banana Smoothie",
+    //     image: food_27,
+    //     price: 159,
+    //     description: " A smoothie is a creamy, blended drink packed with fruits, dairy, or proteins, offering a refreshing and nutritious boost in every sip.",
+    //     category: "Smoothies"
+    // },
 
-    {
-        _id: "28",
-        name: "Jamun Banana Smoothie",
-        image: food_28,
-        price: 159,
-        description: " A smoothie is a creamy, blended drink packed with fruits, dairy, or proteins, offering a refreshing and nutritious boost in every sip.",
-        category: "Smoothies"
-    },
+    // {
+    //     _id: "28",
+    //     name: "Jamun Banana Smoothie",
+    //     image: food_28,
+    //     price: 159,
+    //     description: " A smoothie is a creamy, blended drink packed with fruits, dairy, or proteins, offering a refreshing and nutritious boost in every sip.",
+    //     category: "Smoothies"
+    // },
 
-    {
-        _id: "29",
-        name: "Banana Strawberry Smoothie",
-        image: food_29,
-        price: 159,
-        description: " A smoothie is a creamy, blended drink packed with fruits, dairy, or proteins, offering a refreshing and nutritious boost in every sip.",
-        category: "Smoothies"
-    },
+    // {
+    //     _id: "29",
+    //     name: "Banana Strawberry Smoothie",
+    //     image: food_29,
+    //     price: 159,
+    //     description: " A smoothie is a creamy, blended drink packed with fruits, dairy, or proteins, offering a refreshing and nutritious boost in every sip.",
+    //     category: "Smoothies"
+    // },
 
-    {
-        _id: "30",
-        name: "Strawberry Smoothie",
-        image: food_30,
-        price: 169,
-        description: " A smoothie is a creamy, blended drink packed with fruits, dairy, or proteins, offering a refreshing and nutritious boost in every sip.",
-        category: "Smoothies"
-    },
+    // {
+    //     _id: "30",
+    //     name: "Strawberry Smoothie",
+    //     image: food_30,
+    //     price: 169,
+    //     description: " A smoothie is a creamy, blended drink packed with fruits, dairy, or proteins, offering a refreshing and nutritious boost in every sip.",
+    //     category: "Smoothies"
+    // },
 
-    {
-        _id: "31",
-        name: "Mango Smoothie",
-        image: food_31,
-        price: 169,
-        description: " A smoothie is a creamy, blended drink packed with fruits, dairy, or proteins, offering a refreshing and nutritious boost in every sip.",
-        category: "Smoothies"
-    },
+    // {
+    //     _id: "31",
+    //     name: "Mango Smoothie",
+    //     image: food_31,
+    //     price: 169,
+    //     description: " A smoothie is a creamy, blended drink packed with fruits, dairy, or proteins, offering a refreshing and nutritious boost in every sip.",
+    //     category: "Smoothies"
+    // },
 
-    {
-        _id: "32",
-        name: "Nuttela Banana Smoothie",
-        image: food_32,
-        price: 169,
-        description: " A smoothie is a creamy, blended drink packed with fruits, dairy, or proteins, offering a refreshing and nutritious boost in every sip.",
-        category: "Smoothies"
-    },
+    // {
+    //     _id: "32",
+    //     name: "Nuttela Banana Smoothie",
+    //     image: food_32,
+    //     price: 169,
+    //     description: " A smoothie is a creamy, blended drink packed with fruits, dairy, or proteins, offering a refreshing and nutritious boost in every sip.",
+    //     category: "Smoothies"
+    // },
 
-    {
-        _id: "33",
-        name: "Jamun Smoothie",
-        image: food_33,
-        price: 169,
-        description: " A smoothie is a creamy, blended drink packed with fruits, dairy, or proteins, offering a refreshing and nutritious boost in every sip.",
-        category: "Smoothies"
-    },
+    // {
+    //     _id: "33",
+    //     name: "Jamun Smoothie",
+    //     image: food_33,
+    //     price: 169,
+    //     description: " A smoothie is a creamy, blended drink packed with fruits, dairy, or proteins, offering a refreshing and nutritious boost in every sip.",
+    //     category: "Smoothies"
+    // },
 
-    {
-        _id: "34",
-        name: "Mango Strawberry Smoothie",
-        image: food_34,
-        price: 169,
-        description: " A smoothie is a creamy, blended drink packed with fruits, dairy, or proteins, offering a refreshing and nutritious boost in every sip.",
-        category: "Smoothies"
-    },
+    // {
+    //     _id: "34",
+    //     name: "Mango Strawberry Smoothie",
+    //     image: food_34,
+    //     price: 169,
+    //     description: " A smoothie is a creamy, blended drink packed with fruits, dairy, or proteins, offering a refreshing and nutritious boost in every sip.",
+    //     category: "Smoothies"
+    // },
 
-    {
-        _id: "35",
-        name: "Mix Berry Smoothie",
-        image: food_35,
-        price: 179,
-        description: " A smoothie is a creamy, blended drink packed with fruits, dairy, or proteins, offering a refreshing and nutritious boost in every sip.",
-        category: "Smoothies"
-    },
+    // {
+    //     _id: "35",
+    //     name: "Mix Berry Smoothie",
+    //     image: food_35,
+    //     price: 179,
+    //     description: " A smoothie is a creamy, blended drink packed with fruits, dairy, or proteins, offering a refreshing and nutritious boost in every sip.",
+    //     category: "Smoothies"
+    // },
 
-    {
-        _id: "36",
-        name: "Oats Strawberry Smoothie",
-        image: food_36,
-        price: 179,
-        description: " A smoothie is a creamy, blended drink packed with fruits, dairy, or proteins, offering a refreshing and nutritious boost in every sip.",
-        category: "Smoothies"
-    },
+    // {
+    //     _id: "36",
+    //     name: "Oats Strawberry Smoothie",
+    //     image: food_36,
+    //     price: 179,
+    //     description: " A smoothie is a creamy, blended drink packed with fruits, dairy, or proteins, offering a refreshing and nutritious boost in every sip.",
+    //     category: "Smoothies"
+    // },
 
-    {
-        _id: "37",
-        name: "Blue Berry Smoothie",
-        image: food_37,
-        price: 179,
-        description: " A smoothie is a creamy, blended drink packed with fruits, dairy, or proteins, offering a refreshing and nutritious boost in every sip.",
-        category: "Smoothies"
-    },
+    // {
+    //     _id: "37",
+    //     name: "Blue Berry Smoothie",
+    //     image: food_37,
+    //     price: 179,
+    //     description: " A smoothie is a creamy, blended drink packed with fruits, dairy, or proteins, offering a refreshing and nutritious boost in every sip.",
+    //     category: "Smoothies"
+    // },
 
-    {
-        _id: "38",
-        name: "Berry Oats Smoothie",
-        image: food_38,
-        price: 189,
-        description: " A smoothie is a creamy, blended drink packed with fruits, dairy, or proteins, offering a refreshing and nutritious boost in every sip.",
-        category: "Smoothies"
-    },
+    // {
+    //     _id: "38",
+    //     name: "Berry Oats Smoothie",
+    //     image: food_38,
+    //     price: 189,
+    //     description: " A smoothie is a creamy, blended drink packed with fruits, dairy, or proteins, offering a refreshing and nutritious boost in every sip.",
+    //     category: "Smoothies"
+    // },
 
     {
         _id: "39",
@@ -672,77 +674,77 @@ export const food_list= [
         category: "Salad"
     },
 
-    {
-        _id: "48",
-        name: "Egg Roasted Salad",
-        image: food_48,
-        price: 180,
-        description: "2 Boiled Egg White, 2 Egg Scrambled, Broccoli, Beans, Capsicum, Zucchini, Carrot, Lettuce, Black Chana, Sprout, Olive Oil",
-        category: "Salad"
-    },
+    // {
+    //     _id: "48",
+    //     name: "Egg Roasted Salad",
+    //     image: food_48,
+    //     price: 180,
+    //     description: "2 Boiled Egg White, 2 Egg Scrambled, Broccoli, Beans, Capsicum, Zucchini, Carrot, Lettuce, Black Chana, Sprout, Olive Oil",
+    //     category: "Salad"
+    // },
 
-    {
-        _id: "49",
-        name: "Jumbo Veggies Salad",
-        image: food_49,
-        price: 190,
-        description: "50gm Paneer, Cucumber, Carrot, Broccoli, Lettuce, Zucchini, Spinach, beans, Olives",
-        category: "Salad"
-    },
+    // {
+    //     _id: "49",
+    //     name: "Jumbo Veggies Salad",
+    //     image: food_49,
+    //     price: 190,
+    //     description: "50gm Paneer, Cucumber, Carrot, Broccoli, Lettuce, Zucchini, Spinach, beans, Olives",
+    //     category: "Salad"
+    // },
 
-    {
-        _id: "50",
-        name: "Quinoa Veg. Salad",
-        image: food_50,
-        price: 190,
-        description: "Quinoa, Broccoli, Lettuce, Red Cabbage, Carrot, Beans, Zucchini, Onion, Tomato",
-        category: "Salad"
-    },
+    // {
+    //     _id: "50",
+    //     name: "Quinoa Veg. Salad",
+    //     image: food_50,
+    //     price: 190,
+    //     description: "Quinoa, Broccoli, Lettuce, Red Cabbage, Carrot, Beans, Zucchini, Onion, Tomato",
+    //     category: "Salad"
+    // },
 
-    {
-        _id: "51",
-        name: "Quinoa Paneer Salad",
-        image: food_51,
-        price: 220,
-        description: "Quinoa, Broccoli, Lettuce, Red Cabbage, Carrot, Beans, Zucchini, Onion, Tomato, 50gm Paneer",
-        category: "Salad"
-    },
+    // {
+    //     _id: "51",
+    //     name: "Quinoa Paneer Salad",
+    //     image: food_51,
+    //     price: 220,
+    //     description: "Quinoa, Broccoli, Lettuce, Red Cabbage, Carrot, Beans, Zucchini, Onion, Tomato, 50gm Paneer",
+    //     category: "Salad"
+    // },
 
-    {
-        _id: "52",
-        name: "Chicken Salad",
-        image: food_52,
-        price: 240,
-        description: "100gm roasted Chicken Breast, Broccoli, Lettuce, Red Cabbage, Carrot, Onion, Tomato",
-        category: "Salad"
-    },
+    // {
+    //     _id: "52",
+    //     name: "Chicken Salad",
+    //     image: food_52,
+    //     price: 240,
+    //     description: "100gm roasted Chicken Breast, Broccoli, Lettuce, Red Cabbage, Carrot, Onion, Tomato",
+    //     category: "Salad"
+    // },
 
-    {
-        _id: "53",
-        name: "Paneer Roasted Salad",
-        image: food_53,
-        price: 240,
-        description: "150gm Paneer, Broccoli, Beans, Capsicum, Zucchini, Carrot, Lettuce, Red Cabbage, Carrot, Sprout, Black Chana, Olive Oil",
-        category: "Salad"
-    },
+    // {
+    //     _id: "53",
+    //     name: "Paneer Roasted Salad",
+    //     image: food_53,
+    //     price: 240,
+    //     description: "150gm Paneer, Broccoli, Beans, Capsicum, Zucchini, Carrot, Lettuce, Red Cabbage, Carrot, Sprout, Black Chana, Olive Oil",
+    //     category: "Salad"
+    // },
 
-    {
-        _id: "54",
-        name: "Roasted Chicken Salad",
-        image: food_54,
-        price: 220,
-        description: "150gm Chicken, Broccoli, Beans, Capsicum, Zucchini, Carrot, Lettuce, Red Cabbage, Carrot, Sprout, Black Chana, Olive Oil",
-        category: "Salad"
-    },
+    // {
+    //     _id: "54",
+    //     name: "Roasted Chicken Salad",
+    //     image: food_54,
+    //     price: 220,
+    //     description: "150gm Chicken, Broccoli, Beans, Capsicum, Zucchini, Carrot, Lettuce, Red Cabbage, Carrot, Sprout, Black Chana, Olive Oil",
+    //     category: "Salad"
+    // },
 
-    {
-        _id: "55",
-        name: "Egg Chicken Salad",
-        image: food_55,
-        price: 260,
-        description: "100gm Roasted Chicken Breast, 1 Boiled Egg, Broccoli, Lettuce, Red Cabbage, Carrot, Onion, Tomato, Beans",
-        category: "Salad"
-    },
+    // {
+    //     _id: "55",
+    //     name: "Egg Chicken Salad",
+    //     image: food_55,
+    //     price: 260,
+    //     description: "100gm Roasted Chicken Breast, 1 Boiled Egg, Broccoli, Lettuce, Red Cabbage, Carrot, Onion, Tomato, Beans",
+    //     category: "Salad"
+    // },
 
     {
         _id: "56",
@@ -780,113 +782,113 @@ export const food_list= [
         category: "Brown Rice Special"
     },
 
-    {
-        _id: "60",
-        name: "Chicken Brown Rice",
-        image: food_60,
-        price: 300,
-        description: "100gm Roasted Chicken Breast, Brown Rice, Broccoli, Beans, Lettuce, Red Cabbage, Carrot, Onion, Tomato",
-        category: "Brown Rice Special"
-    },
+    // {
+    //     _id: "60",
+    //     name: "Chicken Brown Rice",
+    //     image: food_60,
+    //     price: 300,
+    //     description: "100gm Roasted Chicken Breast, Brown Rice, Broccoli, Beans, Lettuce, Red Cabbage, Carrot, Onion, Tomato",
+    //     category: "Brown Rice Special"
+    // },
 
-    {
-        _id: "61",
-        name: "Paneer Bhurji",
-        image: food_61,
-        price: 170,
-        description: "100gm Paneer",
-        category: "Main Course"
-    },
+    // {
+    //     _id: "61",
+    //     name: "Paneer Bhurji",
+    //     image: food_61,
+    //     price: 170,
+    //     description: "100gm Paneer",
+    //     category: "Main Course"
+    // },
 
-    {
-        _id: "62",
-        name: "Egg Garlic CUrry",
-        image: food_62,
-        price: 180,
-        description: "Healthy, Tasty & Delicious Egg Curry For Your Everyday Meal To Pair(Quantity: 250ml)",
-        category: "Main Course"
-    },
+    // {
+    //     _id: "62",
+    //     name: "Egg Garlic CUrry",
+    //     image: food_62,
+    //     price: 180,
+    //     description: "Healthy, Tasty & Delicious Egg Curry For Your Everyday Meal To Pair(Quantity: 250ml)",
+    //     category: "Main Course"
+    // },
 
-    {
-        _id: "63",
-        name: "Egg Curry",
-        image: food_63,
-        price: 190,
-        description: "A Popular Dish Made With Boiled Eggs Cooked In Onion Toamto Gravy In Healthy Style(Quantity: 250ml)",
-        category: "Main Course"
-    },
+    // {
+    //     _id: "63",
+    //     name: "Egg Curry",
+    //     image: food_63,
+    //     price: 190,
+    //     description: "A Popular Dish Made With Boiled Eggs Cooked In Onion Toamto Gravy In Healthy Style(Quantity: 250ml)",
+    //     category: "Main Course"
+    // },
 
-    {
-        _id: "64",
-        name: "Paneer Garlic Curry",
-        image: food_64,
-        price: 200,
-        description: "Garlic Gravy In iNdia Healthy Style With Paneer Cubes Prepared In Olive Oil(Quantity: 250ml)",
-        category: "Main Course"
-    },
+    // {
+    //     _id: "64",
+    //     name: "Paneer Garlic Curry",
+    //     image: food_64,
+    //     price: 200,
+    //     description: "Garlic Gravy In iNdia Healthy Style With Paneer Cubes Prepared In Olive Oil(Quantity: 250ml)",
+    //     category: "Main Course"
+    // },
 
-    {
-        _id: "65",
-        name: "Egg Butter Masala",
-        image: food_65,
-        price: 210,
-        description: "2 Boiled Egg With Red Gravy",
-        category: "Main Course"
-    },
+    // {
+    //     _id: "65",
+    //     name: "Egg Butter Masala",
+    //     image: food_65,
+    //     price: 210,
+    //     description: "2 Boiled Egg With Red Gravy",
+    //     category: "Main Course"
+    // },
 
-    {
-        _id: "66",
-        name: "Paneer Curry",
-        image: food_66,
-        price: 210,
-        description: "MouthWatering Dish Made From Paneer Cooked In A Healthy Style With Less Oil(Olive Oil) And Less Spicy(Quantity: 250ml)",
-        category: "Main Course"
-    },
+    // {
+    //     _id: "66",
+    //     name: "Paneer Curry",
+    //     image: food_66,
+    //     price: 210,
+    //     description: "MouthWatering Dish Made From Paneer Cooked In A Healthy Style With Less Oil(Olive Oil) And Less Spicy(Quantity: 250ml)",
+    //     category: "Main Course"
+    // },
 
-    {
-        _id: "67",
-        name: "Chicken Garlic Curry",
-        image: food_67,
-        price: 230,
-        description: "Dietcart Special Garlic ginger Gravy With MArinated Chicken(Quantity: 250ml)",
-        category: "Main Course"
-    },
+    // {
+    //     _id: "67",
+    //     name: "Chicken Garlic Curry",
+    //     image: food_67,
+    //     price: 230,
+    //     description: "Dietcart Special Garlic ginger Gravy With MArinated Chicken(Quantity: 250ml)",
+    //     category: "Main Course"
+    // },
 
-    {
-        _id: "68",
-        name: "Paneer Butter Masala",
-        image: food_68,
-        price: 230,
-        description: "Served With Red Gravy",
-        category: "Main Course"
-    },
+    // {
+    //     _id: "68",
+    //     name: "Paneer Butter Masala",
+    //     image: food_68,
+    //     price: 230,
+    //     description: "Served With Red Gravy",
+    //     category: "Main Course"
+    // },
 
-    {
-        _id: "69",
-        name: "Paneer Tikka Masala",
-        image: food_69,
-        price: 240,
-        description: "Paneer, Capsicum, Onion With Red Gravy",
-        category: "Main Course"
-    },
+    // {
+    //     _id: "69",
+    //     name: "Paneer Tikka Masala",
+    //     image: food_69,
+    //     price: 240,
+    //     description: "Paneer, Capsicum, Onion With Red Gravy",
+    //     category: "Main Course"
+    // },
 
-    {
-        _id: "70",
-        name: "Chicken Curry",
-        image: food_70,
-        price: 240,
-        description: "Onion Tomato Curry With Other Herbs Keeping In Mind Health First Is Best Meal Of The Day For Chicken Lover(Quantity: 250ml), 100gm Chicken",
-        category: "Main Course"
-    },
+    // {
+    //     _id: "70",
+    //     name: "Chicken Curry",
+    //     image: food_70,
+    //     price: 240,
+    //     description: "Onion Tomato Curry With Other Herbs Keeping In Mind Health First Is Best Meal Of The Day For Chicken Lover(Quantity: 250ml), 100gm Chicken",
+    //     category: "Main Course"
+    // },
 
-    {
-        _id: "71",
-        name: "Butter Chicken",
-        image: food_71,
-        price: 260,
-        description: "Roasted Chicken With Red Gravy",
-        category: "Main Course"
-    },
+    // {
+    //     _id: "71",
+    //     name: "Butter Chicken",
+    //     image: food_71,
+    //     price: 260,
+    //     description: "Roasted Chicken With Red Gravy",
+    //     category: "Main Course"
+    // },
 
     {
         _id: "72",
@@ -897,14 +899,14 @@ export const food_list= [
         category: "Pre & Post Workout Special"
     },
 
-    {
-        _id: "73",
-        name: "Poha",
-        image: food_73,
-        price: 50,
-        description: "",
-        category: "Pre & Post Workout Special"
-    },
+    // {
+    //     _id: "73",
+    //     name: "Poha",
+    //     image: food_73,
+    //     price: 50,
+    //     description: "",
+    //     category: "Pre & Post Workout Special"
+    // },
 
     {
         _id: "74",
@@ -915,14 +917,14 @@ export const food_list= [
         category: "Pre & Post Workout Special"
     },
 
-    {
-        _id: "75",
-        name: "Brown Bread With Peanut Butter",
-        image: food_75,
-        price: 60,
-        description: "",
-        category: "Pre & Post Workout Special"
-    },
+    // {
+    //     _id: "75",
+    //     name: "Brown Bread With Peanut Butter",
+    //     image: food_75,
+    //     price: 60,
+    //     description: "",
+    //     category: "Pre & Post Workout Special"
+    // },
 
     {
         _id: "76",
@@ -933,41 +935,41 @@ export const food_list= [
         category: "Pre & Post Workout Special"
     },
 
-    {
-        _id: "77",
-        name: "Egg Sandwich",
-        image: food_77,
-        price: 70,
-        description: "",
-        category: "Pre & Post Workout Special"
-    },
+    // {
+    //     _id: "77",
+    //     name: "Egg Sandwich",
+    //     image: food_77,
+    //     price: 70,
+    //     description: "",
+    //     category: "Pre & Post Workout Special"
+    // },
 
-    {
-        _id: "78",
-        name: "Dip Curd",
-        image: food_78,
-        price: 70,
-        description: "",
-        category: "Pre & Post Workout Special"
-    },
+    // {
+    //     _id: "78",
+    //     name: "Dip Curd",
+    //     image: food_78,
+    //     price: 70,
+    //     description: "",
+    //     category: "Pre & Post Workout Special"
+    // },
 
-    {
-        _id: "79",
-        name: "Grilled Brown Bread With Peanut Butter",
-        image: food_79,
-        price: 80,
-        description: "",
-        category: "Pre & Post Workout Special"
-    },
+    // {
+    //     _id: "79",
+    //     name: "Grilled Brown Bread With Peanut Butter",
+    //     image: food_79,
+    //     price: 80,
+    //     description: "",
+    //     category: "Pre & Post Workout Special"
+    // },
 
-    {
-        _id: "80",
-        name: "VEg. Grilled Sandwich",
-        image: food_80,
-        price: 90,
-        description: "",
-        category: "Pre & Post Workout Special"
-    },
+    // {
+    //     _id: "80",
+    //     name: "VEg. Grilled Sandwich",
+    //     image: food_80,
+    //     price: 90,
+    //     description: "",
+    //     category: "Pre & Post Workout Special"
+    // },
 
     {
         _id: "81",
@@ -978,14 +980,14 @@ export const food_list= [
         category: "Pre & Post Workout Special"
     },
 
-    {
-        _id: "82",
-        name: "Paneer Grilled Sandwich",
-        image: food_82,
-        price: 120,
-        description: "",
-        category: "Pre & Post Workout Special"
-    },
+    // {
+    //     _id: "82",
+    //     name: "Paneer Grilled Sandwich",
+    //     image: food_82,
+    //     price: 120,
+    //     description: "",
+    //     category: "Pre & Post Workout Special"
+    // },
 
     // {
     //     _id: "83",
@@ -996,41 +998,41 @@ export const food_list= [
     //     category: "Pre & Post Workout Special"
     // },
 
-    {
-        _id: "83",
-        name: "Fruit Salad",
-        image: food_83,
-        price: 160,
-        description: "",
-        category: "Pre & Post Workout Special"
-    },
+    // {
+    //     _id: "83",
+    //     name: "Fruit Salad",
+    //     image: food_83,
+    //     price: 160,
+    //     description: "",
+    //     category: "Pre & Post Workout Special"
+    // },
 
-    {
-        _id: "84",
-        name: "Roasted Chicken Breast",
-        image: food_84,
-        price: 170,
-        description: "",
-        category: "Pre & Post Workout Special"
-    },
+    // {
+    //     _id: "84",
+    //     name: "Roasted Chicken Breast",
+    //     image: food_84,
+    //     price: 170,
+    //     description: "",
+    //     category: "Pre & Post Workout Special"
+    // },
 
-    {
-        _id: "85",
-        name: "Roasted Paneer Tikka",
-        image: food_85,
-        price: 170,
-        description: "",
-        category: "Pre & Post Workout Special"
-    },
+    // {
+    //     _id: "85",
+    //     name: "Roasted Paneer Tikka",
+    //     image: food_85,
+    //     price: 170,
+    //     description: "",
+    //     category: "Pre & Post Workout Special"
+    // },
 
-    {
-        _id: "86",
-        name: "Grilled Chicken Sandwich",
-        image: food_86,
-        price: 170,
-        description: "",
-        category: "Pre & Post Workout Special"
-    },
+    // {
+    //     _id: "86",
+    //     name: "Grilled Chicken Sandwich",
+    //     image: food_86,
+    //     price: 170,
+    //     description: "",
+    //     category: "Pre & Post Workout Special"
+    // },
 
     {
         _id: "87",
