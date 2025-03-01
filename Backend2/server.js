@@ -6,7 +6,7 @@ import cors from "cors"
 import adminRouter from "./routes/adminRoute.js";
 import userRouter from "./routes/userRoute.js";
 // import 'dotenv,config';
-import dotenv from 'dotenv';
+import dotenv from 'dotenvs';
 
 dotenv.config();
 

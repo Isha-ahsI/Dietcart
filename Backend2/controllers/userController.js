@@ -44,7 +44,7 @@ const registerUser=async(req,res)=>{
         }
 
         if(password.length<8){
-            return res.json({sucess:false,message:"Please enter a strong password"})
+            return res.json({sucess:false,message:"Password must be at least 8 characters long"})
         }
 
         //hashing user password
