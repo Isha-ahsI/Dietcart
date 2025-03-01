@@ -6,6 +6,7 @@ import Menu from './pages/Menu/Menu'
 import PlaceOrder from './pages/PlaceOrder/PlaceOrder'
 import Footer from './components/Footer/Footer'
 import LoginPopup from './components/LoginPopup/LoginPopup'
+import Blog from './pages/Blog/Blog'
 
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
         <Route path='/' element={<Home/>} />
         <Route path='/menu' element={<Menu/>} />
         <Route path='/order' element={<PlaceOrder/>} />
+        <Route path='/Blog' element={<Blog/>}/>
         
       </Routes>
       
