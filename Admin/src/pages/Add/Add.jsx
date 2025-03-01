@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import "./Add.css"
 import { assets } from '../../assets/assets'
 import axios from 'axios'
-import {useFormik} from "formik"
+// import {useFormik} from "formik"
 import { toast } from 'react-toastify'
 
 
@@ -13,7 +13,7 @@ const Add = ({url}) => {
   const [data,setData] = useState({
     name:"",
     description:"",
-    category:"salad",
+    category:"Egg Plate",
     price:""
   })
 
@@ -38,7 +38,7 @@ const Add = ({url}) => {
       setData({
         name:"",
         description:"",
-        category:"salad",
+        category:"",
         price:""
       })
       setImage(false)
@@ -110,7 +110,7 @@ const Add = ({url}) => {
                 <option value="Smoothies">Smoothies</option>
                 <option value="Salad">Salad</option>
                 <option value="Brown Rice Special">Brown Rice Special</option>
-                <option value="Main Course">Main Course</option>
+                {/* <option value="Main Course">Main Course</option> */}
                 <option value="Pre & Post Workout Special">Pre & Post Workout Special</option>
                 <option value="Dietcombo">Dietcombo</option>
             </select>
