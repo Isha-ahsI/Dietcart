@@ -21,8 +21,8 @@ const Footer = () => {
                 <h2>Dietcart</h2>
                 <ul>
                     <li>Home</li>
-                    <li>About us</li>
-                    <li>Delivery</li>
+                    <li>Category</li>
+                    <li>Blog</li>
                     <li>Privacy policy</li>
                 </ul>
             </div>
