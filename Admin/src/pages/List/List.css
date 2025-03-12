@@ -1,6 +1,6 @@
 .list-table-format{
     display: grid;
-    grid-template-columns: 4fr 3fr 5fr 3fr 3fr 1fr;
+    grid-template-columns: 4fr 3fr 5fr 3fr 3fr 2fr 1fr;
     align-items: center;
     gap: 10px;
     padding: 12px 40px;
@@ -14,7 +14,7 @@
     
 }
 
-.list-table-format img{
+ .image{
     width: 75px;
 }
 
@@ -37,4 +37,16 @@
     font-size: x-large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
 
+}
+.edit{
+    height: 20px;
+    width: 20px;
+}
+
+button{
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
 }

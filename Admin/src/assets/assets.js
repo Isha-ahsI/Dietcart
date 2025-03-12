@@ -5,6 +5,7 @@ import profile_icon from './profile-icon.jpg'
 import upload_icon from './upload-icon.png'
 import add_icon from './add-icon.png'
 import order_icon from './order-icon2.png'
+import edit_icon from './download.png'
 
 
 
@@ -15,7 +16,8 @@ export const assets={
     profile_icon,
     upload_icon,
     add_icon,
-    order_icon
+    order_icon,
+    edit_icon
     
 
 
