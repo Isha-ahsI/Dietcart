@@ -7,6 +7,7 @@ import adminRouter from "./routes/adminRoute.js";
 import userRouter from "./routes/userRoute.js";
 
 import dotenv from 'dotenv';
+import cartRouter from "./routes/cartroute.js";
 
 dotenv.config();
 
@@ -19,6 +20,7 @@ app.use(cors())
 app.use("/api/food",adminRouter)
 app.use("/image",express.static('uploads'))
 app.use("/api/user",userRouter)
+app.use("/api/cart",cartRouter)
 
 app.get("/",(req,res)=>{
     
