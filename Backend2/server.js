@@ -8,6 +8,7 @@ import userRouter from "./routes/userRoute.js";
 
 import dotenv from 'dotenv';
 import cartRouter from "./routes/cartroute.js";
+import orderRouter from "./routes/orderRoute.js";
 
 dotenv.config();
 
@@ -21,6 +22,7 @@ app.use("/api/food",adminRouter)
 app.use("/image",express.static('uploads'))
 app.use("/api/user",userRouter)
 app.use("/api/cart",cartRouter)
+// app.use("/api/order",orderRouter)
 
 app.get("/",(req,res)=>{
     

@@ -19,7 +19,10 @@ const orderSchema = new mongoose.Schema({
     },
     status:{
         type:String,
-        required:true,
+        default:"Food Processing"
+    },
+    date:{
+        type:Date,
         default:Date.now()
     },
     payment:{
