@@ -27,8 +27,9 @@ function Navbar({setShowLogin}) {
         <a href='#explore-menu' onClick={()=>setMenu("category")} className={menu==="category"?"active":""}>Category</a>  
         {/* <a href='#blog' onClick={()=>setMenu("blog")} className={menu==="blog"?"active":""}>Blog</a> */}
         <Link to='/Blog'onClick={()=>setMenu("Blog")} className={menu==="Blog"?"active":""}>Blog</Link>
+        <Link to='/Contactus'onClick={()=>setMenu("Contactus")} className={menu==="Contactus"?"active":""}>ContactUs</Link>
         
-        <a href='#footer' onClick={()=>setMenu("contact us")} className={menu==="contact us"?"active":""}>Contact us</a>
+        {/* <a href='#footer' onClick={()=>setMenu("contact us")} className={menu==="contact us"?"active":""}>Contact us</a> */}
       </ul>
       <div className="navbar-right">
         {/* <img src={assets.search} alt="" /> */}
