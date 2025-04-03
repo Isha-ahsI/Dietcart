@@ -7,6 +7,12 @@ import PlaceOrder from './pages/PlaceOrder/PlaceOrder'
 import Footer from './components/Footer/Footer'
 import LoginPopup from './components/LoginPopup/LoginPopup'
 import Blog from './pages/Blog/Blog'
+import Contactus from './pages/Contactus/Contactus'
+
+
+ 
+
+
 
 
 const App = () => {
@@ -24,6 +30,8 @@ const App = () => {
         <Route path='/menu' element={<Menu/>} />
         <Route path='/order' element={<PlaceOrder/>} />
         <Route path='/Blog' element={<Blog/>}/>
+        <Route path='/Contactus' element={<Contactus/>}/>
+        
         
       </Routes>
       

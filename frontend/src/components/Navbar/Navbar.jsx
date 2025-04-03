@@ -16,6 +16,7 @@ function Navbar({setShowLogin}) {
   const logout=()=>{
     localStorage.removeItem("token");
     setToken("");
+    alert("Log Out successfully");
     navigate("/")
   }
 

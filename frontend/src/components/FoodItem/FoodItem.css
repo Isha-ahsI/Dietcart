@@ -30,6 +30,7 @@
 .food-item-desc{
     color: #676767;
     font-size: 12px;
+    padding-top: 10px;
 }
 .food-item-price{
     color: tomato;
