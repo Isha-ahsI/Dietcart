@@ -24,6 +24,7 @@ import cross_icon from './cross_icon.png'
 import blog1 from './blog1.webp'
 import blog2 from './blog2.webp'
 import blog3 from './blog3.webp'
+import parcel_icon from './parcel-icon.png'
 
 
 
@@ -53,7 +54,8 @@ export const assets={
     cross_icon,
     blog1,
     blog2,
-    blog3
+    blog3,
+    parcel_icon
 }
 
 export const menu_list = [
