@@ -27,10 +27,12 @@
 .add-category-price{
     display: flex;
     gap: 50px;
+    
 }
 
 .add-price input {
-    margin-top: 9px;
+    margin-top: 20px;
+    
 }
 
 .add-category-price select,.add-category-price input{
@@ -40,8 +42,6 @@
 
 .add-btn{
     max-width: 150px;
-    border: 2px solid black;
-    padding: 10px;
     background-color:#6d6d6d;
     color:white ;
     cursor: pointer;
