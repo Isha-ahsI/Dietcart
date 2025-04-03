@@ -1,11 +1,11 @@
 import mongoose from "mongoose"
 
 const orderSchema = new mongoose.Schema({
-    userID:{
+    userId:{
         type:String,
         required:true
     },
-    item:{
+    items:{
         type:Array,
         required:true
     },

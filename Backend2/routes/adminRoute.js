@@ -19,7 +19,7 @@ const uploads=multer({storage:storage})
 adminRouter.post("/add",uploads.single("image"),addfood)
 adminRouter.get("/list",listFood)
 adminRouter.post("/remove",removefood);
-adminRouter.post("/update",updateFood)
+adminRouter.post("/update", uploads.single("image"),updateFood)
 
 
 export default adminRouter;
