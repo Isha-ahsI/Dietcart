@@ -1,10 +1,14 @@
 import express from "express"
 import authMiddleware from "../middleware/auth.js"
-import {placeOrder} from "../controllers/orderController.js"
+import {listOrders, placeOrder, userOrders, verifyOrder,updateStatus} from "../controllers/orderController.js"
 
 const orderRouter =express.Router();
 
 orderRouter.post("/",authMiddleware,placeOrder);
+orderRouter.post("/verify",verifyOrder);
+orderRouter.post("/userorders",authMiddleware,userOrders);
+orderRouter.get("/listorders",listOrders)
+orderRouter.post("/status",updateStatus)
 
 
 
