@@ -12,6 +12,7 @@ import Verify from './pages/Verify/Verify'
 import MyOrders from './pages/MyOrders/MyOrders'
 
 
+
  
 
 
@@ -35,7 +36,7 @@ const App = () => {
         <Route path='/Contactus' element={<Contactus/>}/>
         <Route path='/Verify' element={<Verify/>}/>
         <Route path='/myorders' element={<MyOrders/>}/>
-        
+              
         
       </Routes>
       

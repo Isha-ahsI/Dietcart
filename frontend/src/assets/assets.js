@@ -124,3 +124,13 @@ export const blogPosts= [
     },
   ];
   
+  export const mealPlans=[
+    {
+        title:"Keto Meal Plan",
+        description:"The keto diet is all about eating meals that are high in fat, consist moderate portions of protein and very low in carbs. The reduction of carbohydrates results in a metabolic process called ketosis where your body fat is then used to generate energy in the body."
+    },
+    {
+        title:"Maintenance meal plan",
+        description:"Just looking for healthy food to help you maintain your weight and lead a healthy lifestyle? This is the plan for you! The meals are well balanced and consist of complex carbohydrates, lean protein, healthy fats and generous portions of fruits and vegetables which add all the essential vitamins, minerals and fibre to your diet." 
+    },
+  ]
