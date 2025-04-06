@@ -10,7 +10,7 @@ const Footer = () => {
                 <div className='footer-content-left-logo'>
                     <img src={assets.logo} alt="" />
                 </div>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim recusandae culpa, eos labore voluptatem reiciendis excepturi repudiandae sequi at laborum incidunt officia, consequatur fugiat vitae nihil sapiente voluptates magni eveniet.</p>
+                <p>At DietCart, we believe that eating well shouldn't be complicated. Our mission is to make nutritious choices easy and accessible for everyone. Whether you're looking to lose weight, maintain a balanced diet, or simply explore healthier meal options, DietCart offers a wide range of curated diet plans, fresh ingredients, and ready-to-eat meals tailored to your lifestyle. Join us on a journey to better health with delicious food delivered right to your doorstep – because wellness starts with what’s on your plate.</p>
                 <div className='footer-social-icons'>
                     <img src={assets.facebook_icon} alt="" />
                     <img src={assets.instagram_icon} alt="" />
