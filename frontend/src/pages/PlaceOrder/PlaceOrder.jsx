@@ -96,12 +96,12 @@ const PlaceOrder = () => {
           <hr />
           <div className="menu-total-details">
             <p>Delivery Fee</p>
-            <p>{getTotalMenuAmount() === 0 ? 0 : 50} ₹</p>
+            <p>{getTotalMenuAmount() === 0 ? 0 : 2} ₹</p>
           </div>
           <hr />
           <div className="menu-total-details">
             <b>Total</b>
-            <b>{getTotalMenuAmount() === 0 ? 0 : getTotalMenuAmount() + 50} ₹</b>
+            <b>{getTotalMenuAmount() === 0 ? 0 : getTotalMenuAmount() + 2} ₹</b>
           </div>
           <button type="submit">PROCEED TO CHECKOUT</button>
         </div>
