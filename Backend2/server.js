@@ -2,6 +2,7 @@ import express from  "express"
 import mongoose from "mongoose";
 const mongoURL = "mongodb+srv://root:root@cluster.sc6tn.mongodb.net/diet_cart"
 
+
 import cors from "cors"
 import adminRouter from "./routes/adminRoute.js";
 import userRouter from "./routes/userRoute.js";
