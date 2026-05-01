@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import "./Contactus.css";
 
-const ContactUs = () => {
+const Contactus = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -46,4 +46,4 @@ const ContactUs = () => {
   );
 };
 
-export default ContactUs;
+export default Contactus;

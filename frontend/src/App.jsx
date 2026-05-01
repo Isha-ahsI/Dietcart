@@ -7,7 +7,7 @@ import PlaceOrder from './pages/PlaceOrder/PlaceOrder'
 import Footer from './components/Footer/Footer'
 import LoginPopup from './components/LoginPopup/LoginPopup'
 import Blog from './pages/Blog/Blog'
-import ContactUs from './pages/ContactUs/Contactus'
+import Contactus from './pages/Contactus/Contactus'
 import Verify from './pages/Verify/Verify'
 import MyOrders from './pages/MyOrders/MyOrders'
 
@@ -33,7 +33,7 @@ const App = () => {
         <Route path='/menu' element={<Menu/>} />
         <Route path='/order' element={<PlaceOrder/>} />
         <Route path='/Blog' element={<Blog/>}/>
-        <Route path='/Contactus' element={<ContactUs/>}/>
+        <Route path='/Contactus' element={<Contactus/>}/>
         <Route path='/Verify' element={<Verify/>}/>
         <Route path='/myorders' element={<MyOrders/>}/>
               
