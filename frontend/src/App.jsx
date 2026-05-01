@@ -7,7 +7,7 @@ import PlaceOrder from './pages/PlaceOrder/PlaceOrder'
 import Footer from './components/Footer/Footer'
 import LoginPopup from './components/LoginPopup/LoginPopup'
 import Blog from './pages/Blog/Blog'
-import ContactUs from './pages/Contactus/Contactus'
+import ContactUs from './pages/ContactUs/Contactus'
 import Verify from './pages/Verify/Verify'
 import MyOrders from './pages/MyOrders/MyOrders'
 
