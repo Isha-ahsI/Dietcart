@@ -18,6 +18,7 @@ dotenv.config();
 
 const app=express()
 const port=4000
+const url = "https://dietcart-2.onrender.com";
 
 app.use(express.json())
 app.use(cors())
@@ -26,12 +27,12 @@ app.use(cors())
 
 
 
-app.use("/api/food",adminRouter)
-app.use("/image",express.static('uploads'))
-app.use("/api/user",userRouter)
-app.use("/api/cart",cartRouter)
-app.use("/api/order",orderRouter)
-app.use("/api/contact",contactusRouter)
+app.use(`${url}/api/food`,adminRouter)
+app.use(`${url}/image`,express.static('uploads'))
+app.use(`${url}/api/user`,userRouter)
+app.use(`${url}/api/cart`,cartRouter)
+app.use(`${url}/api/order`,orderRouter)
+app.use(`${url}/api/contact`,contactusRouter)
 
 
 app.get("/",(req,res)=>{
