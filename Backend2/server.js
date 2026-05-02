@@ -27,12 +27,12 @@ app.use(cors())
 
 
 
-app.use(`${url}/api/food`,adminRouter)
-app.use(`${url}/image`,express.static('uploads'))
-app.use(`${url}/api/user`,userRouter)
-app.use(`${url}/api/cart`,cartRouter)
-app.use(`${url}/api/order`,orderRouter)
-app.use(`${url}/api/contact`,contactusRouter)
+app.use("/api/food",adminRouter)
+app.use("/image",express.static('uploads'))
+app.use("/api/user",userRouter)
+app.use("/api/cart",cartRouter)
+app.use("/api/order",orderRouter)
+app.use("/api/contact",contactusRouter)
 
 
 app.get("/",(req,res)=>{
@@ -43,7 +43,7 @@ app.get("/",(req,res)=>{
 mongoose.connect(mongoURL).then(()=>{
     console.log("mongodb connect");
     app.listen(port,()=>{
-        console.log(`server started on http://localhost:${port}`);
+        console.log(`server started on ${url}`);
     });
 }).catch((error)=>{
     console.error(error);
