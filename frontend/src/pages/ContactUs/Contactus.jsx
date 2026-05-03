@@ -20,7 +20,7 @@ const Contactus = () => {
     setLoading(true);
 
     try {
-      const response = await axios.post("http://localhost:4000/api/contact/submit", formData);
+      const response = await axios.post("https://dietcart-2.onrender.com/api/contact/submit", formData);
       if (response.data.success) {
         alert("Message sent successfully!");
         setFormData({ name: "", email: "", message: "" });
