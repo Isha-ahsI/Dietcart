@@ -51,8 +51,8 @@ const placeOrder = async (req, res) => {
       payment_method_types: ["card"], // ✅ Required field
       line_items: line_items,
       mode: "payment",
-      success_url: `${frontend_url}/verify?success=true&orderId=${newOrder._id}`,
-      cancel_url: `${frontend_url}/verify?success=false&orderId=${newOrder._id}`,
+      success_url: `https://dietcart-1.onrender.com/verify?success=true&orderId=${newOrder._id}`,
+      cancel_url: `https://dietcart-1.onrender.com/verify?success=false&orderId=${newOrder._id}`,
     });
 
     console.log("Stripe Session:", session);
