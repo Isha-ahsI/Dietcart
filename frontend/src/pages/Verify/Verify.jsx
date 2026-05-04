@@ -5,7 +5,7 @@ import { StoreContext } from '../../context/StoreContext';
 import axios from 'axios';
 import { useEffect } from 'react';
 
-function Verify() {
+const Verify = () => {
 
     const [searchParams,setSearchParams]=useSearchParams();
     const success=searchParams.get("success");
